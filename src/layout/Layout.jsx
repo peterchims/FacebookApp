@@ -4,6 +4,7 @@ import Login from '../pages/login/login'
 import Signup from '../pages/signup/signup'
 
 function Layout(){
+    const
     return(
      <Signup />
     )
