@@ -220,3 +220,21 @@ outline: #dfdfdf;
     color: var(--facebook-btn);
     text-decoration: none;
    }
+     /* Adding Responsiveness */
+     @media (max-width:600px) {
+        .Signup{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+           
+          }
+          .right .DOB .dob-selection  select.month{
+            background: rgb(255, 255, 255);
+            border: 1px solid #dfdfdf;
+            padding: 12px;
+            padding-right: 25px;
+            border-radius: 5px;
+            outline: #dfdfdf;
+        }
+     }

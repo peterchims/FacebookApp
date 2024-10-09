@@ -13,7 +13,6 @@
   display: flex;
   align-items: center;
   width: 45%;
-
   border: 1px solid rgb(245, 245, 245);
   border-radius:0;
   overflow:hidden;
@@ -74,4 +73,30 @@ font-weight: 500;
         font-weight: 500;
         text-decoration: none;
         margin-bottom: 40px;
+     }
+
+     /* Adding Responsiveness */
+     @media (max-width:600px) {
+        .login .card{
+            width: 90%;
+            flex-direction: column;
+       
+            
+        }
+        .login .card .left h2{
+            color: var(--facebook-btn);
+            text-align: center;
+            font-size: 50px;
+            font-weight: 500;
+             }
+             .login  .left p{
+                color: #000;
+                text-align: center;
+                width: 160%;
+                padding-top: 20px;
+                font-size: 19px;
+                margin-left:-50px;
+                padding-bottom: 30px;
+             
+                 }
      }
