@@ -1,6 +1,6 @@
 import React from 'react'
 import './signup.css'
-
+import { Link } from 'react-router-dom'; 
 function Signup() {
     return(
         <>
@@ -73,7 +73,10 @@ function Signup() {
           </div>
         <div className="signup-footer">
         <button className='btn btn-create btn-sign'> Sign Up</button>
+        <Link to='/login' className='login-click'>
         <a href="#" className='login-account'> Already have an account?</a>
+        </Link>
+        
         </div>
     
         </form>

@@ -214,3 +214,9 @@ outline: #dfdfdf;
     color: var(--facebook-btn);
     text-decoration: none;
    }
+   .login-click{
+    text-decoration: none;
+    margin: 20px;
+    color: var(--facebook-btn);
+    text-decoration: none;
+   }
