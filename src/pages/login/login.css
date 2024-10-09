@@ -1,0 +1,76 @@
+ body{
+    background: #fff;
+ }
+ .login {
+    background:var(--color-primary);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .login .card{
+  display: flex;
+  align-items: center;
+  width: 45%;
+
+  border: 1px solid rgb(245, 245, 245);
+  border-radius:0;
+  overflow:hidden;
+ padding-bottom: 90px;
+ }
+ .login .card .left{
+flex: 1;
+display: flex;
+width: 50%;
+flex-direction: column;
+
+
+ }
+ .login .card .left h2{
+color: var(--facebook-btn);
+text-align: left;
+font-size: 50px;
+font-weight: 500;
+ }
+ .login  .left p{
+    color: #000;
+    text-align: left;
+    width: 80%;
+    font-size: 19px;
+ 
+     }
+ .login .card .right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    box-sizing: border-box;
+    box-shadow: 10px 0px 8px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    background-color: #ffffff;
+    border:10px solid rgb(252, 252, 252);
+    border-radius: 10px;
+     }
+   
+     .login form input{
+        padding: 1rem 0;
+        width: 100%;
+        margin-top: 10px;
+        border: 1px solid rgb(197, 197, 197);
+        outline: none;
+     }
+     .login form input::placeholder{
+       color:rgb(138, 138, 138);
+       font-weight: 300;
+       font-size: 20px;
+       padding: 10px;
+     }
+     .login form a{
+        color:var(--facebook-btn);
+        font-weight: 500;
+        text-decoration: none;
+        margin-bottom: 40px;
+     }

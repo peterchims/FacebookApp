@@ -3,18 +3,22 @@ import './login.css'
 
 function Login() {
     return(
-        <div className='login'> 
+        <div className="login">
+        <div className='card'> 
         <div className="left">
-            <h2>Facebook Login</h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo magni ipsa expedita cum vero facere et quidem est, aliquam unde sint voluptatibus
-                 maxime obcaecati mollitia reprehenderit tenetur eveniet rerum! Dicta?</p>
-       <span>Don't Have an Account? </span>
-       <button className='btn btn-primary'> Register</button>
+            <h2>facebook</h2>
+            <p> Connect with friends and the world around you on facebook.</p>
+       
         </div>
-        <div className="right">
+        <form className="right">
+<input type="text" name="" placeholder="Email or Phone number" required id="" />
+<input type="password" name="" placeholder='Password' required id="" />
+<button type="submit" className='btn login-btn'>Login</button>
+<a href="#">Forget Password?</a>
+<button type="submit" className='btn btn-create'> Create Account</button>
+        </form>
 
         </div>
-
         </div>
     )
 }

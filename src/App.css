@@ -8,12 +8,13 @@
 }
 
 :root{
-  --color-primary:#6c63ff;
+  --color-primary:#fdfdfd;
   --text-color:black;
   --color-bg:rgb(236,236,236);
   --color-card:#fff;
   --color-soft:#aaaaaa;
   --color-border:lightgray;
+  --facebook-btn:#1783e9;
 }
 .container{
   max-width: 991px;
@@ -63,8 +64,29 @@ small, p{
   opacity: .7;
 }
 .btn-primary{
-  background:var(--color-primary);
+  background:var(--facebook-btn);
   color: #fff;
+  border: 0px;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 10px;
+}
+.login-btn{
+  color: #fff;
+  background-color: var(--facebook-btn);
+  width: 100%;
+  border: 0px;
+  padding: 18px;
+  font-size: 15px;
+  font-weight: 900;
+  border-radius: 4px;
+}
+.btn-create{
+  background-color: rgb(101, 221, 21);
+  border: 0px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
 }
 .btn-red{
   background: var(--color-red);
