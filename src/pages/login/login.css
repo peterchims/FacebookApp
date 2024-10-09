@@ -67,6 +67,7 @@ font-weight: 500;
        font-weight: 300;
        font-size: 20px;
        padding: 10px;
+       text-transform: capitalize;
      }
      .login form a{
         color:var(--facebook-btn);
