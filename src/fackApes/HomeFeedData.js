@@ -127,7 +127,7 @@ const Feeds =[
     {
         id: 13,
         userid: 13,
-        name: 'Micheal Peter',
+        name: 'Micheal Peter ',
         feedImage: FeedImage13,
         feedProfile: feedProfile13,
          desc: 'This is the another Feed.'
