@@ -82,7 +82,7 @@ small, p{
   border-radius: 4px;
 }
 .btn-create{
-  background-color: rgb(101, 221, 21);
+  background-color: rgb(17, 155, 40);
   border: 0px;
   color: #fff;
   font-weight: 600;
@@ -91,4 +91,10 @@ small, p{
 .btn-red{
   background: var(--color-red);
   color: #fff;
+}
+main{
+  display: grid;
+  grid-template-columns: 20% 50% 23%;
+  gap: 3%;
+  width: 100%;
 }
