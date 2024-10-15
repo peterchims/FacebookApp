@@ -6,3 +6,19 @@
     height: calc(100vh - 3.6rem);
     overflow: auto;
 }
+.leftBar::-webkit-scrollbar {
+    display: none;
+}
+.left-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.left-container .menu{
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px 0;
+
+}

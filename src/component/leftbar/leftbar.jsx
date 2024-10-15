@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import CurrentUser from '../../fackApes/CurrentUserData';
 import {FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faFacebookMessenger } from '@fortawesome/fontawesome-svg-core';
-import {faBars, faBell,faHome, faSearch,faUserFriends, faUsers, faGamepad, faPlayCircle, faStore, faMessage} from '@fortawesome/free-solid-svg-icons'
+import {faBars, faBell,faHome, faCameraRetro,faUserFriends, faUsers, faGamepad, faPlayCircle, faStore, faMessage} from '@fortawesome/free-solid-svg-icons'
 
 
 function Leftbar() {
@@ -27,13 +27,14 @@ function Leftbar() {
          
           <Link to='/profile/id'>
           <div className="user">
-          <FontAwesomeIcon className="icon" icon={faStore} />
+          <FontAwesomeIcon className="icon" icon={faCameraRetro} />
+     
           <h4> Memories </h4>
           </div>
           </Link>
           <Link to='/profile/id'>
           <div className="user">
-          <FontAwesomeIcon className="icon" icon={faStore} />
+          <FontAwesomeIcon className="icon" icon={faCameraRetro} />
           <h4> Saved </h4>
           </div>
           </Link>
