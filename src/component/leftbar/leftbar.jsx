@@ -4,7 +4,17 @@ import { Link } from 'react-router-dom';
 import CurrentUser from '../../fackApes/CurrentUserData';
 import {FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faFacebookMessenger } from '@fortawesome/fontawesome-svg-core';
-import {faBars, faBell,faHome, faCameraRetro,faUserFriends, faUsers, faGamepad, faPlayCircle, faStore, faMessage} from '@fortawesome/free-solid-svg-icons'
+import {
+  faTv, 
+  faBookmark, 
+  faCameraRetro,
+  faUserFriends, 
+  faUsers,
+  faCalendar, 
+  faStore,
+  faCalendarAlt, 
+  faChevronDown} 
+  from '@fortawesome/free-solid-svg-icons'
 
 
 function Leftbar() {
@@ -20,7 +30,7 @@ function Leftbar() {
           </Link>
           <Link to='/profile/id'>
           <div className="user">
-          <FontAwesomeIcon className="icon" icon={faUserFriends} />
+          <FontAwesomeIcon className="icon fauser" icon={faUserFriends} />
           <h4> Friends </h4>
           </div>
           </Link>
@@ -34,13 +44,17 @@ function Leftbar() {
           </Link>
           <Link to='/profile/id'>
           <div className="user">
-          <FontAwesomeIcon className="icon" icon={faCameraRetro} />
+          <FontAwesomeIcon className="icon bk" icon={faBookmark} />
+
+
           <h4> Saved </h4>
           </div>
           </Link>
           <Link to='/profile/id'>
           <div className="user">
-          <FontAwesomeIcon className="icon" icon={faStore} />
+          <FontAwesomeIcon className="icon fauser" icon={faUsers} />
+
+
           <h4> Groups </h4>
           </div>
           </Link>
@@ -48,32 +62,43 @@ function Leftbar() {
           
           <Link to='/profile/id'>
           <div className="user">
-          <FontAwesomeIcon className="icon" icon={faStore} />
+          <FontAwesomeIcon className="icon bk" icon={faTv} />
+
           <h4> Video </h4>
           </div>
           </Link>
           <Link to='/profile/id'>
           <div className="user">
-          <FontAwesomeIcon className="icon" icon={faStore} />
+          <FontAwesomeIcon className="icon fauser" icon={faStore} />
           <h4> Marketplace </h4>
           </div>
           </Link>
           <Link to='/profile/id'>
           <div className="user">
-          <FontAwesomeIcon className="icon" icon={faStore} />
+          <FontAwesomeIcon className="icon" icon={faCalendar} />
+
           <h4> Feeds </h4>
           </div>
+          
           </Link>
           <Link to='/profile/id'>
           <div className="user">
-          <FontAwesomeIcon className="icon" icon={faStore} />
+          <FontAwesomeIcon className="icon bk" icon={faCalendarAlt} />
+
+          <h4> Events </h4>
+          </div>
+          
+          </Link>
+          <Link to='/profile/id'>
+          <div className="user">
+          <FontAwesomeIcon className="icon drp" icon={faChevronDown} />
+
+
           <h4> See More </h4>
           </div>
           </Link>
-        </div>
-       
-     
-<hr />
+        </div>  
+<hr className='divider'/>
         <div className="menu">
     <h4 className="others">Your Shortcuts </h4>
     <Link to='/profile/id'>
