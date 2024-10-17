@@ -73,7 +73,7 @@ function Nav(){
         <FontAwesomeIcon icon={faBell} className='right-icon' />
         </Link>
         <div className="user">
-          <img src={CurrentUser.map(user=>(user.ProfieImage))} alt="" />
+          <img src={CurrentUser.map(user=>(user.ProfileImage))} alt="" />
         </div>
       </div>
     </div>

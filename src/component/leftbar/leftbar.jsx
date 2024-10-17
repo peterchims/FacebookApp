@@ -14,7 +14,6 @@ import {
   faStore,
   faCalendarAlt, 
   faChevronDown,
-  faTicketSimple,
   faMusic,
   faSadTear} 
   from '@fortawesome/free-solid-svg-icons'
@@ -28,7 +27,7 @@ function Leftbar() {
         <div className="menu">
           <Link to='/profile/id'>
           <div className="user">
-          <img src={CurrentUser.map(user=>(user.ProfieImage))} alt="" />
+          <img src={CurrentUser.map(user=>(user.ProfileImage))} alt="" />
           <h4 > Demo App </h4>
           </div>
           </Link>
@@ -107,7 +106,7 @@ function Leftbar() {
     <h4 className="others">Your Shortcuts </h4>
     <Link to='/profile/id'>
           <div className="user">
-          <img src={CurrentUser.map(user=>(user.ProfieImage))} alt="" />
+          <img src={CurrentUser.map(user=>(user.ProfileImage))} alt="" />
           <h4> Singles, Married , Divorce , Relationships Group Chat </h4>
           </div>
           </Link>

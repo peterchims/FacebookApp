@@ -1,0 +1,64 @@
+.chatbox{
+background-color: var(--color-card);
+min-height: 90vh;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
+overflow: hidden;
+margin-bottom: 20px;
+}
+.chatBoxTop{
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    gap: .7rem;
+    padding: 2rem 0;
+}
+.chatbox img{
+    width: 100px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    margin-top: 1rem;
+    border: 3px solid var(--color-primary);
+}
+.chatBoxBottom{
+    background-color: var(--color-bg);
+    width: 80%;
+    margin: 1rem auto;
+    padding: .8rem;
+    border-radius: .5rem;
+
+}
+.chatBoxBottom form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+}
+.chatBoxBottom input{
+    width: 100%;
+    background: transparent;
+    color: var(--color-primary);
+    font-size: 1rem;
+}
+.chatBoxBottom label input{
+    display: none;
+}
+
+/* Responsiveness */
+@media (max-width:768px) {
+    .chatbox{
+        min-height: 8vh;
+    }
+    .chatBoxTop{
+        width: 90%;
+    }
+    .chatBoxBottom{
+        width: 90%;
+    }
+}

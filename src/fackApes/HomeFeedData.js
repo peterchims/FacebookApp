@@ -58,7 +58,7 @@ const Feeds =[
         name: 'Peter Davies',
         feedImage: FeedImage4,
         feedProfile: feedProfile4,
-            desc: 'This is the another Feed.'
+        desc: 'This is the another Feed.'
     },
     {
         id: 5,

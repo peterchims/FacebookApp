@@ -83,6 +83,6 @@
 }
 @media(max-width:768px){
     .leftBar{
-        visibility: hidden;
+      display: none;
     }
     }

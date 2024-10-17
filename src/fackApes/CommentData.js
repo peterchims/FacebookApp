@@ -1,4 +1,4 @@
-import Comment1 from '../assets/img/food_9.png';
+import Comment1 from '../assets/img/CoverPhotos.jpg';
 import Comment2 from '../assets/img/avatar2.jpg';
 
 

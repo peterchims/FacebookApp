@@ -43,6 +43,8 @@ margin-bottom: 20px;
 }
 .message .user {
     position: relative;
+    height: fit-content;
+    width: fit-content;
 }
 .green-active{
     height: 10px;
