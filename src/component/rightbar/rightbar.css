@@ -1,0 +1,15 @@
+.rightBar{
+height: calc(100vh - 3.6rem);
+background-color: black;
+position: sticky;
+top: 3.6rem;
+overflow: auto;
+}
+.rightBar::-webkit-scrollbar{
+    display: none;
+}
+.rightbar-container{
+    width: 80%;
+    /* background-color: red; */
+    margin: 0 auto;
+}

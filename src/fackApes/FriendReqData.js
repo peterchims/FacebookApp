@@ -1,36 +1,36 @@
-import FirendImage1 from '../assets/img/avatar2.jpg.jpg'
-import FirendImage2 from '../assets/img/food_1.png'
-import FirendImage3 from '../assets/img/avatar4.jpg'
-import FirendImage4 from '../assets/img/product8.jpg'
+import FriendImage1 from '../assets/img/avatar2.jpg'
+import FriendImage2 from '../assets/img/food_1.png'
+import FriendImage3 from '../assets/img/avatar4.jpg'
+import FriendImage4 from '../assets/img/product8.jpg'
 
 
-const Firends =[
+const Friends =[
     {
         id: 1,
         name: 'Anna Loise',
-        img: FirendImage1,
+        img: FriendImage1,
         info: ' 4 mutual Following',
     },
     {
         id: 2,
         name: 'Eva Gacorai',
-        img: FirendImage2,
+        img: FriendImage2,
         info: ' 4 mutual Following',
     },
     {
         id: 3,
         name: 'Anny Joly',
-        img: FirendImage3,
+        img: FriendImage3,
         info: ' 4 mutual Following',
     },
     {
         id: 4,
         name: 'Prince Adam',
-        img: FirendImage4,
+        img: FriendImage4,
         info: ' 4 mutual Following',
     },
 ];
 
 
 
-export default Firends;
+export default Friends;

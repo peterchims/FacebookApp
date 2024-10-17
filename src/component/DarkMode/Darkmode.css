@@ -1,0 +1,21 @@
+
+.DarkSettings{
+    display: flex;
+    align-items: right;
+    justify-content: end;
+
+}
+.dark-mode{
+    transition: .3s ease;
+    padding: 3px;
+}
+.dark-mode:hover{
+    transform: scale(1.2);
+}
+.span-setting{
+    color: rgb(190, 190, 190);
+    padding: 1px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}

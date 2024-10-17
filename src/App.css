@@ -18,6 +18,15 @@
   --color-soft:#aaaaaa;
   --color-border:lightgray;
   --facebook-btn:#1783e9;
+  --chat-active:green;
+}
+.darkMode{
+
+  background-color: rgb(5, 5, 5);
+ 
+}
+body{
+  overflow-x: hidden;
 }
 .container{
   max-width: 991px;

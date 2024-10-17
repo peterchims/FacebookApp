@@ -13,8 +13,12 @@ import {
   faCalendar, 
   faStore,
   faCalendarAlt, 
-  faChevronDown} 
+  faChevronDown,
+  faTicketSimple,
+  faMusic,
+  faSadTear} 
   from '@fortawesome/free-solid-svg-icons'
+  import Darkmode from '../DarkMode/Darkmode';
 
 
 function Leftbar() {
@@ -103,47 +107,37 @@ function Leftbar() {
     <h4 className="others">Your Shortcuts </h4>
     <Link to='/profile/id'>
           <div className="user">
-          <FontAwesomeIcon className="icon" icon={faStore} />
-          <h4> Shortcut 1 </h4>
+          <img src={CurrentUser.map(user=>(user.ProfieImage))} alt="" />
+          <h4> Singles, Married , Divorce , Relationships Group Chat </h4>
+          </div>
+          </Link>
+          <Link to='/profile/id'>
+          <div className="user">
+          <FontAwesomeIcon className="icon bk" icon={faBookmark} />
+          <h4> Saved  </h4>
           </div>
           </Link>
           <Link to='/profile/id'>
           <div className="user">
           <FontAwesomeIcon className="icon" icon={faStore} />
-          <h4> Shortcut 2 </h4>
+          <h4> Stores</h4>
+          </div>
+          </Link>
+         
+          <Link to='/profile/id'>
+          <div className="user">
+          <FontAwesomeIcon className="icon" icon={faMusic} />
+          <h4> MusicHub </h4>
           </div>
           </Link>
           <Link to='/profile/id'>
           <div className="user">
-          <FontAwesomeIcon className="icon" icon={faStore} />
-          <h4> Shortcut 3 </h4>
-          </div>
-          </Link>
-          <Link to='/profile/id'>
-          <div className="user">
-          <FontAwesomeIcon className="icon" icon={faStore} />
-          <h4> Shortcut 4 </h4>
-          </div>
-          </Link>
-          <Link to='/profile/id'>
-          <div className="user">
-          <FontAwesomeIcon className="icon" icon={faStore} />
-          <h4> Shortcut 5 </h4>
-          </div>
-          </Link>
-          <Link to='/profile/id'>
-          <div className="user">
-          <FontAwesomeIcon className="icon" icon={faStore} />
-          <h4> Shortcut 6 </h4>
-          </div>
-          </Link>
-          <Link to='/profile/id'>
-          <div className="user">
-          <FontAwesomeIcon className="icon" icon={faStore} />
-          <h4> Shortcut 7 </h4>
+          <FontAwesomeIcon className="icon" icon={faSadTear} />
+          <h4> Community Challenge </h4>
           </div>
           </Link>
         </div>
+        <Darkmode />
       </div>
     </div>
   );

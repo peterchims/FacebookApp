@@ -9,6 +9,7 @@ import coverPhoto from '../../assets/icons/fb_logo.png'
 
 
 
+
 function Nav(){
   const [isFocused, setIsFocused] = useState(false);
   return (
@@ -67,6 +68,7 @@ function Nav(){
         <Link to='/chatbox/id' className='navlink-right'>
         <FontAwesomeIcon icon={faMessage} className='right-icon' />
         </Link> 
+       
         <Link to='/' className='navlink-right'>
         <FontAwesomeIcon icon={faBell} className='right-icon' />
         </Link>
